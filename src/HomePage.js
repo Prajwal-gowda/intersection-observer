@@ -68,7 +68,7 @@ const HomePage = () => {
         </p>
       </Reveal>
       <ImageObserve
-        threshold={1}
+        threshold={0}
         src="https://images.unsplash.com/photo-1604921826964-c7a1c2913828?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
       />
       <p>
@@ -96,7 +96,7 @@ const HomePage = () => {
         </p>
       </Reveal>
       <ImageObserve
-        threshold={0.5}
+        threshold={0.2}
         rootMargin="0px 0px 200px 0px"
         src="https://images.unsplash.com/photo-1604914604105-3c2795ac4dd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=348&q=80"
       />
@@ -112,7 +112,7 @@ const HomePage = () => {
         of Lorem Ipsum
       </p>
       <ImageObserve
-        threshold={0.5}
+        threshold={0.2}
         rootMargin="0px 0px 200px 0px"
         src="https://images.unsplash.com/photo-1604914047240-cfe40319a5f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=376&q=80"
       />
